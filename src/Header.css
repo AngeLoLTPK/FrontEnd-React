@@ -1,5 +1,5 @@
 header {
-    background-image: url('./img/filtro-de-vintage-fundo-borrado-fundo-de-borrao-de-loja-colorido-com-bokeh_7189-1081.avif');
+    background-color: gray;
 
     background-size: cover;
 
@@ -8,8 +8,19 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    display: flex;
+    justify-content: space-around;
 }
 
 header h1 {
-    color: rgb(97, 214, 74);
+    color: rgb(225, 247, 31);
+}
+
+header nav a {
+    text-decoration: none;
+
+    margin-left: 25px;
+
+    color: rgb(225, 247, 31);
 }
