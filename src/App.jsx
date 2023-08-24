@@ -1,21 +1,19 @@
-import Header from "./Header";
-import Aside from "./Aside";
-import Content from "./Content";
-import Footer from "./Footer";
-import './App.css'
+import Home from "./components/pages/Home";
+import Page404 from "./components/pages/Page404";
+import Contato from "./components/pages/Contato";
+import QuemSomos from "./components/pages/QuemSomos";
+import {Routes, Route} from "react-router-dom"
+import './app.css'
 
 const App = () => {
     return (
-    <>   
-      <Header />
-        <div id="main">
-            <Aside></Aside>
-            <Content></Content>
-        </div>
-        <Footer></Footer>
-    </>
-
+        <Routes>
+                <Route path='/' element={<Home />} />
+                <Route path='/quem-somos' element={<QuemSomos />} />
+                <Route path='/contato' element={<Contato/>} />
+                <Route path='*' element={<Page404 />} />
+        </Routes>
     )
 };
 
-export default App
+export default App;
