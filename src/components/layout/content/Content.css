@@ -1,13 +1,18 @@
 #Content {
     width: 70%;
     height: 500px;
-    background: paleturquoise;
 
     margin: 25px;
 
-    margin-right: 15px;
+    margin-right: auto;
 
-    margin-left: 10px;
+    margin-left: auto;
 
     padding: 30px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
 }

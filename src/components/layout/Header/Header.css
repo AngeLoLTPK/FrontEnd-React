@@ -17,10 +17,32 @@ header h1 {
     color: rgb(225, 247, 31);
 }
 
-header nav a {
-    text-decoration: none;
+header ul {
+
+    display: flex;
+}
+
+header ul li {
+
+    list-style-type: none;
 
     margin-left: 25px;
 
-    color: rgb(225, 247, 31);
+}
+
+header ul li a {
+
+    margin-left: 25px;
+
+    text-decoration: none;
+
+    color: white;
+}
+
+header ul li a.active {
+
+    border-bottom: 2px solid orange;
+
+    padding-bottom: 12px;
+
 }

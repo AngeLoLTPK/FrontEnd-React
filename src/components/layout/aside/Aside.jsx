@@ -1,9 +1,10 @@
-import React from 'react'
 import './Aside.css'
 
-export const Aside = () => {
+export const Aside = ({children}) => {
   return (
-    <div id='Aside'><h2>Aside</h2></div>
+    <div id='Aside'>    
+      {children}
+    </div>
   );
 };
 

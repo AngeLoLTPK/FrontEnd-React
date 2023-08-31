@@ -1,8 +1,10 @@
 import './Content.css'
 
-export const Content = () => {
+export const Content = ({children}) => {
   return (
-    <div id='Content'><h2>Content</h2></div>
+    <div id='Content'>
+      {children}
+    </div>
   )
 }
 

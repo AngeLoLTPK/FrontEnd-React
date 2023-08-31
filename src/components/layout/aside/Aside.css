@@ -1,7 +1,6 @@
 #Aside {
     width: 30%;
     height: 500px;
-    background: greenyellow;
 
     margin: 25px;
 
@@ -10,4 +9,10 @@
     margin-left: 10px;
 
     padding: 30px;
+}
+
+#main {
+    display: flex;
+
+    justify-content: end;
 }
