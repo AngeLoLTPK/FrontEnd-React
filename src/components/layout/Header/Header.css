@@ -20,6 +20,8 @@ header h1 {
 header ul {
 
     display: flex;
+
+    align-items: center;
 }
 
 header ul li {

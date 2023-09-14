@@ -1,5 +1,6 @@
 import './Header.css'
 import { Link, NavLink } from 'react-router-dom'
+import Button from '../../ui/button.jsx';
 
 const Header = () => {
     return (
@@ -11,6 +12,8 @@ const Header = () => {
                 <li><NavLink to='/contato'>Contato</NavLink></li>
                 <li><NavLink to='/Services'>Serviços</NavLink></li>
                 <li><NavLink to='/*'></NavLink></li>
+                <li><Button cor='primary'>Blue</Button></li>
+                <li><Button cor='secondary'>Grenn</Button></li>
             </ul>
         </header>
     )
