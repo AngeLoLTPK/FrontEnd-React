@@ -1,0 +1,30 @@
+.card-user {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background: #f1f1f1;
+
+    display: flex;
+
+    gap: 15px;
+
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 15px;
+}
+
+.card-user img {
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+
+.card-user h3{
+    margin-top: 0px;
+    color: #52c9e7;
+}
+
+.card-user span{
+    color: #38d694;
+}
