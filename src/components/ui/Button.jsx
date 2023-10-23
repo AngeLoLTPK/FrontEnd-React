@@ -1,17 +1,17 @@
 import './button.css'
 
-const Button = ({ children, cor }) => {
+const Button = ({ children, cor, ...rest }) => {
 
     return (
         <>
         {
             cor === "primary" ? 
-            <button className='primary'>{children}</button>
+            <button {...rest} className='primary'>{children}</button>
              : 
             null    
         } {
             cor === "secondary" ? 
-            <button className='secondary'>{children}</button>
+            <button {...rest}  className='secondary'>{children}</button>
             :
             null
         }

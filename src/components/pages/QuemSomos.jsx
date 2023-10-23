@@ -31,7 +31,7 @@ export const QuemSomos = () => {
     }
   })
 
-  console.log(user.id)
+  // console.log(user.id)
 
 
   useEffect(() => {
@@ -194,7 +194,7 @@ export const QuemSomos = () => {
         </Aside>
 
         <Content>
-
+{/* 
           {
             users === false ? <p>Nenhum usuário cadastrado...</p> : users.length > 0 ? users.map((user) => {
 
@@ -218,7 +218,7 @@ export const QuemSomos = () => {
               //  return <CardUser user={user} />
 
             }) : <p>Loading...</p>
-          }
+          } */}
 
 
           {/* modal edit  */}
