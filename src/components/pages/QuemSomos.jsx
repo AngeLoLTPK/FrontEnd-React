@@ -176,16 +176,14 @@ export const QuemSomos = () => {
         </Aside>
 
         <Content>
-{/* 
+
           {
             users === false ? <p>Nenhum usuário cadastrado...</p> : users.length > 0 ? users.map((user) => {
 
               return <CardUser key={user.id} user={user} users={users} setUsers={setUsers} />
 
-              //  return <CardUser user={user} />
-
             }) : <p>Loading...</p>
-          } */}
+          }
 
         </Content>
       </div>
