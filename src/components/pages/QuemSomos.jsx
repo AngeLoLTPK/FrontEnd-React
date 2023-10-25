@@ -15,6 +15,7 @@ export const QuemSomos = () => {
 
   let [users, setUsers] = useState([]);
   let [showModal, setShowModal] = useState(false);
+ 
 
 
   useEffect(() => {
@@ -175,7 +176,7 @@ export const QuemSomos = () => {
         </Aside>
 
         <Content>
-
+{/* 
           {
             users === false ? <p>Nenhum usuário cadastrado...</p> : users.length > 0 ? users.map((user) => {
 
@@ -184,7 +185,7 @@ export const QuemSomos = () => {
               //  return <CardUser user={user} />
 
             }) : <p>Loading...</p>
-          }
+          } */}
 
         </Content>
       </div>
