@@ -78,14 +78,7 @@ const CardUser = ({ user, users, setUsers }) => {
 
   return (
     <>
-      {/* <div className="card-user"> */}
-      {/* <img src={user.photo} alt={user.name} /> */}
       <div>
-        {/* <h3>{user.name}</h3>
-            <span>{user.email}</span>
-            <IconEdit className='icon-edit' onClick={() => setShowEditModal(true)} />
-            <IconTrash className='icon-trash' onClick={() => handleDelete(user.id)} /> */}
-
 
         <Card key={user.id} style={{ width: '18rem', margin: "15px", position: "relative" }}>
           <Card.Img variant="top" src={user.photo} />
